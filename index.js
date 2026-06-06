@@ -10,7 +10,9 @@ app.get("/",(req,res)=>{
 
 app.get("/payment",(req,res)=>{
     console.log("Payment Server Side");
-    res.send("Payment Hogyaaaaa Yayyyyy");
+    res.send("Payment Done");
 })
+
+app.get()
 
 app.listen(3000);
